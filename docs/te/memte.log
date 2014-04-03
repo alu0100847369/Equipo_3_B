@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.1.24)  3 APR 2014 13:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.1.24)  3 APR 2014 13:17
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -207,8 +207,32 @@ Cap\'{\i }tulo 2.
 ]
 Cap\'{\i }tulo 3.
 (./tex/cap3.tex
-File: images/figura1.eps Graphic file (type eps)
- <images/figura1.eps> (./tables/table.tex)) [3
+
+LaTeX Warning: File `images/imagen1.eps' not found on input line 34.
+
+
+! LaTeX Error: File `images/imagen1.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...[width=0.75\textwidth]{images/imagen1.eps}
+                                                  
+? 
+
+! LaTeX Error: Cannot determine size of graphic in images/imagen1.eps (no Bound
+ingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...[width=0.75\textwidth]{images/imagen1.eps}
+                                                  
+? 
+File: images/imagen1.eps Graphic file (type eps)
+<images/imagen1.eps> (./tables/table.tex)) [3
 
 ] [4]
 Cap\'{\i }tulo 4.
@@ -234,6 +258,6 @@ Here is how much of TeX's memory you used:
  4895 multiletter control sequences out of 15000+50000
  13237 words of font info for 48 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,208b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,8n,27p,208b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (17 pages, 15192 bytes).
+Output written on memte.dvi (17 pages, 15204 bytes).
